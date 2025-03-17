@@ -77,7 +77,7 @@ function play(){
     if (num1>num2){
        let r = document.getElementById("result")
        r.style.color = "red";
-       r.innerHTML = "AI Won! Tray Again";
+       r.innerHTML = "AI Won! Try Again.";
     }
     else if (num2>num1){
         let r = document.getElementById("result")
@@ -87,7 +87,7 @@ function play(){
     else if (num2==num1){
         let r = document.getElementById("result")
        r.style.color = "blue";
-       r.innerHTML = "OOO Game Drow !! PLZ play Again";
+       r.innerHTML = "OOO Game Draw!! Please play again.";
     }
 
 
