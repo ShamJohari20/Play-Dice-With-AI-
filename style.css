@@ -1,0 +1,93 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: rgb(101, 162, 216);
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    
+}
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    row-gap: 1px;
+    align-items: center; 
+    justify-content: center;
+    justify-items: center;
+    border-style:solid;
+    border-width: 3px;
+    border-color: black;
+    background-color: azure;
+
+}
+
+.main > * {
+    margin: 2px 0; /* Reduces vertical spacing */
+}
+
+.posi{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 100px;
+    text-align: center;
+    padding: 30px;
+}
+
+.dise {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(179, 53, 53);  
+    font-size:100px;
+    font-weight: bolder; 
+    color: aliceblue;
+    display: flex; /* Enables flexbox */
+    align-items: center; /* Centers text vertically */
+    justify-content: center; /* Centers text horizontally */
+    padding: 10px;
+    margin-top: 3px;
+    border-style:solid;
+    border-width: 3px;
+    border-color: black;
+    text-align: center;
+    text-decoration-color:black;
+    
+}
+
+
+
+.result{
+    height: 80px;
+    width: 600px;
+    font-size:xx-large;
+    font-weight: bolder; 
+    color: rgb(27, 212, 126);
+    display: flex; /* Enables flexbox */
+    align-items: center; /* Centers text vertically */
+    justify-content: center; /* Centers text horizontally */
+
+    
+}
+
+.button{
+    width: 100px;
+    height: 40px;
+    border-style:solid;
+    border-width: 3px;
+    border-color: black;
+    background-color: rgb(145, 139, 226);
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
