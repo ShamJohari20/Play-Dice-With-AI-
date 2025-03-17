@@ -82,7 +82,7 @@ function play(){
     else if (num2>num1){
         let r = document.getElementById("result")
        r.style.color = "green";
-       r.innerHTML = "Congratualation... YOU Won!";
+       r.innerHTML = "Congratulations... YOU Won!";
     }
     else if (num2==num1){
         let r = document.getElementById("result")
